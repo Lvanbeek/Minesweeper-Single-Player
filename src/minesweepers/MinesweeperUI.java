@@ -88,7 +88,7 @@ public class MinesweeperUI extends javax.swing.JFrame {
                     buttons[x][y].setBackground(Color.GRAY);
                     buttons[x][y].setText(" ");
                 } else if (board.board[x][y] == -3 || board.board[x][y] == -4) {
-                    buttons[x][y].setBackground(Color.LIGHT_GRAY);
+                    buttons[x][y].setBackground(Color.BLUE);
                     buttons[x][y].setText("F");
                 } else {
                     buttons[x][y].setBackground(Color.WHITE);
